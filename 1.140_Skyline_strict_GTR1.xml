@@ -257,7 +257,7 @@ constantSiteWeights="747065 1430273 1424447 747741"/>
             <distribution id="treeLikelihood.1" spec="ThreadedTreeLikelihood" data="@1" tree="@Tree.t:1">
                 <siteModel id="SiteModel.s:1" spec="SiteModel" gammaCategoryCount="4" shape="@gammaShape.s:1">
                     <parameter id="mutationRate.s:1" estimate="false" name="mutationRate">1.0</parameter>
-                    <parameter id="proportionInvariant.s:1" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.99991</parameter>
+                    <parameter id="proportionInvariant.s:1" estimate="true" lower="0.0" name="proportionInvariant" upper="1.0">0.99991</parameter>
                     <substModel id="gtr.s:1" spec="GTR" rateAC="@rateAC.s:1" rateAG="@rateAG.s:1" rateAT="@rateAT.s:1" rateCG="@rateCG.s:1" rateGT="@rateGT.s:1">
                         <parameter id="rateCT.s:1" estimate="false" lower="0.0" name="rateCT">1.0</parameter>
                         <frequencies id="estimatedFreqs.s:1" spec="Frequencies" frequencies="@freqParameter.s:1"/>
